@@ -5,13 +5,6 @@ import { MovieCard } from './MovieCard';
 
 const API_URL = 'http://www.omdbapi.com?apikey=4821c1c0';
 
-const movie1 = {
-    "Title": "Superman",
-    "Year": "1978",
-    "imdbID": "tt0078346",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg"
-}
 
 const App = () => {
 
@@ -26,7 +19,7 @@ const App = () => {
     }
 
     useEffect(() => {
-        searchMovies('superman');
+        searchMovies(searchTerm);
     }, [])
 
     return (
