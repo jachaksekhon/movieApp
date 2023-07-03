@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 A simple movie app created by using OMBd's API to reteive data on movies, series and games. 
 
 Built using React, to reinforce working with states, props and dynamic variables.
